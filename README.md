@@ -1,0 +1,4 @@
+stringcalculator
+================
+
+TTD verkefnið
