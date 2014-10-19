@@ -6,14 +6,13 @@ public class Calculator {
 		if(text.equals("")){
 			return 0;
 		}
+	
 		else if(text.contains(",") || text.contains("\n")){
 			return sum(splitNumbers(text));
 		}
-
-		else if(text.startsWith("//")){
+		else if(text.contains("//")){
 			return sum(splitNumbers(text));
 		}
-
 		else
 			return toInt(text);
 	}
